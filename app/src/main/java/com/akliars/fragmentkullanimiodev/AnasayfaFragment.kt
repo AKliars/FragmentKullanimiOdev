@@ -1,6 +1,7 @@
 package com.akliars.fragmentkullanimiodev
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -21,8 +22,9 @@ class AnasayfaFragment : Fragment() {
         // Anasayfadan A Sayfasına Geçiş
         binding.buttonGitA.setOnClickListener {
             val gecis = AnasayfaFragmentDirections.anasayfaGecisA()
-
+            println("${it} deneme")
             Navigation.findNavController(it).navigate(gecis)
+
         }
         // Anasayfadan X Sayfasına Geçiş
         binding.buttonGitX.setOnClickListener {

@@ -24,22 +24,27 @@ class SayfaYFragment : Fragment() {
         // Inflate the layout for this fragment
         binding  = FragmentSayfaYBinding.inflate(inflater, container, false)
 
-        val geriTusu = object : OnBackPressedCallback(true){//Geri dönüş aktif değil
-        override fun handleOnBackPressed() {
-         //   Log.e("Detay Sayfa","Geri tuşu tıklandı.")
-            requireActivity().onBackPressedDispatcher.onBackPressed()
+        val geriTusu = object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                Log.e("Detay Sayfa", "Geri tuşu tıklandı.")
+                isEnabled = false // Geri tuşu işlevselliğini devre dışı bırak
+                isEnabled = true
+                val gecis = SayfaYFragmentDirections.yGecisAnasayfa()
 
-            val gecis = SayfaYFragmentDirections.yGecisAnasayfa()
-
+                Navigation.findNavController(requireView()).navigate(gecis)
 
             }
         }
 
 
-        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner,geriTusu)
+
+        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, geriTusu)
+
+
 
 
         return binding.root
     }
 
 }
+

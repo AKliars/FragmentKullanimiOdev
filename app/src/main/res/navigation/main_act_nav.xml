@@ -51,7 +51,6 @@
         tools:layout="@layout/fragment_sayfa_y" >
         <action
             android:id="@+id/yGecisAnasayfa"
-            app:destination="@id/anasayfaFragment"
-            app:popUpToInclusive="false" />
+            app:destination="@id/anasayfaFragment" />
     </fragment>
 </navigation>
