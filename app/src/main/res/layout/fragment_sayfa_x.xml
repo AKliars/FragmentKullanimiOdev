@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SayfaXFragment" >
+    android:background="@color/sayfaXAnaRenk"
+    tools:context=".SayfaXFragment">
 
     <Button
         android:id="@+id/buttonGitXY"
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="SAYFA X"
+        android:textColor="@color/sayfaXBaslikRenk"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

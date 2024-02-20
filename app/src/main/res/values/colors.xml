@@ -2,4 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Anasayfa Renkleri -->
+    <color name="anasayfaAnaRenk">#6998d0</color>
+    <color name="anasayfaBaslikRenk">#172633</color>
+    <!-- SayfaA Fragment Renkleri -->
+    <color name="sayfaAAnaRenk">#de8346</color>
+    <color name="sayfaABaslikRenk">#391f11</color>
+    <!-- SayfaB Fragment Renkleri -->
+    <color name="sayfaBAnaRenk">#010001</color>
+    <color name="sayfaBBaslikRenk">#f0eff0</color>
+    <!-- SayfaX Fragment Renkleri -->
+    <color name="sayfaXAnaRenk">#a7a5a7</color>
+    <color name="sayfaXBaslikRenk">#edeaec</color>
+    <!-- SayfaY Fragment Renkleri -->
+    <color name="sayfaYAnaRenk">#f6c145</color>
+    <color name="sayfaYBaslikRenk">#fff2d9</color>
+
+
+
+
 </resources>

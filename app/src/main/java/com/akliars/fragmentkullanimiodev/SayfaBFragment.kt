@@ -12,7 +12,6 @@ import com.akliars.fragmentkullanimiodev.databinding.FragmentSayfaBBinding
 
 class SayfaBFragment : Fragment() {
     private lateinit var binding : FragmentSayfaBBinding
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

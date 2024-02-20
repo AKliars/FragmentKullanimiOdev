@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SayfaBFragment" >
+    android:background="@color/sayfaBAnaRenk"
+    tools:context=".SayfaBFragment">
 
     <Button
         android:id="@+id/buttonGitBY"
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="SAYFA B"
+        android:textColor="@color/sayfaBBaslikRenk"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
